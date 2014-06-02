@@ -2,13 +2,7 @@
 		<?php themezee_footer_before(); // hook before #footer ?>
 		<div id="footer-wrap">
 			<footer id="footer" class="container clearfix" role="contentinfo">
-				<?php 
-					$options = get_option('zeefocus_options');
-					if ( isset($options['themeZee_general_footer']) and $options['themeZee_general_footer'] <> "" ) :
-						echo do_shortcode(wp_kses_post($options['themeZee_general_footer']));
-					endif;
-				?>
-				<div id="credit-link"><?php themezee_credit_link(); ?></div>
+				Copyright 2014 Running Motors USA
 			</footer>
 		</div>
 		<?php themezee_footer_after(); // hook after #footer ?>

@@ -119,7 +119,7 @@ input, textarea, select {
 	background: #fff;
 }
 #header {
-	padding: 3em 2em;
+	padding: 2em 2em;
 }
 #wrap {
 	clear: both;
@@ -181,7 +181,7 @@ input, textarea, select {
 	margin-bottom: -4em;
 }
 #page-header {
-	padding: 1em 1em 0.5em;
+	padding: 0 1em;
 }
 #page-header .page-title, #page-header .archive-title {
 	color: #fff;
