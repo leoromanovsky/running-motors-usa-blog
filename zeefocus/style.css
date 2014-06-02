@@ -199,7 +199,7 @@ input, textarea, select {
 
 /* Custom Header Image */
 #custom-header {
-	margin-bottom: 15px;
+	margin-bottom: 13px;
 }
 #custom-header img, #frontpage-individual-image img {
 	max-width: 1320px;
